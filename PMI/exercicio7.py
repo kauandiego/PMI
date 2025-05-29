@@ -1,0 +1,8 @@
+print("Qual o comprimento do paralelepipedo?")
+compri = float(input())
+print("A largura?")
+larg = float(input())
+print("E a altura?")
+alt = float(input())
+volume = float(compri * larg * alt)
+print("O volume do paralelepipedo é %s" % (volume))

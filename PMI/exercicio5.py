@@ -1,0 +1,11 @@
+print("Qual o valor do coeficiente A?")
+coeA = float(input())
+print("Qual o valor do coeficiente B?")
+coeB = float(input())
+print("Qual o valor do coeficiente C?")
+coeC = float(input())
+delta = coeB ** 2 - 4 * coeA * coeC
+raiz1 = (-coeB + delta ** 0.5) / (2 * coeA)
+raiz2 = (-coeB - delta ** 0.5) / (2 * coeA)
+print("as raízes reais são %s e %s" % (raiz1, raiz2))
+print("delta = %s" % (delta))

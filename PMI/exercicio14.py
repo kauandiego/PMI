@@ -1,0 +1,5 @@
+print("Digite a medida de 2 ângulos do triângulo")
+ang1 = float(input())
+ang2 = float(input())
+ang3 = 180 - (ang1 + ang2)
+print("O terceiro ângulo mede %s" % (ang3))

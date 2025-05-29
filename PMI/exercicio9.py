@@ -1,0 +1,5 @@
+print("Digite 2 números inteiros")
+num1 = int(input())
+num2 = int(input())
+soma = (num1 ** 2) + (num2 ** 2)
+print("A soma do quadrados desses números = %s" % (soma))
